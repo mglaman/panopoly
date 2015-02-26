@@ -6,7 +6,7 @@ core = 7.x
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = 99cb79e
+projects[panopoly_core][download][revision] = 9e9a0ca
 projects[panopoly_core][download][branch] = 7.x-1.x
 
 projects[panopoly_images][version] = 1.x-dev
@@ -73,6 +73,3 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 5d6566d
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_search][patch][] = https://www.drupal.org/files/issues/panopoly_search-update-rc4-2164187-3.patch
