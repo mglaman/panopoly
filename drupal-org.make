@@ -73,3 +73,7 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = aa85754
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_wyiswyg][patch][] = https://www.drupal.org/files/issues/panopoly_wysiwyg-2287805-24-responsive-img-fixes.patch
+projects[panopoly_images][patch][] = https://www.drupal.org/files/issues/panopoly_images-2287805-21-responsive-img-fixes.patch
