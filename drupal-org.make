@@ -24,7 +24,7 @@ projects[panopoly_theme][download][branch] = 7.x-1.x
 projects[panopoly_magic][version] = 1.x-dev
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 094c1a9
+projects[panopoly_magic][download][revision] = 71f6533
 projects[panopoly_magic][download][branch] = 7.x-1.x
 
 projects[panopoly_widgets][version] = 1.x-dev
@@ -71,9 +71,5 @@ projects[panopoly_test][version] = 1.x-dev
 projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
-projects[panopoly_test][download][revision] = 14f446d
+projects[panopoly_test][download][revision] = aa85754
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-landing_page_node-2293947-36.patch
-projects[panopoly_pages][patch][] = https://www.drupal.org/files/issues/panopoly_pages-landing_page_node-2293947-36.patch
