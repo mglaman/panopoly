@@ -73,3 +73,7 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = d72c9ca
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-optimize-behat-2447839-5.patch
+projects[panopoly_magic][patch][] = https://www.drupal.org/files/issues/panopoly_magic-optimize-behat-2447839-5.patch
