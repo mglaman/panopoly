@@ -73,3 +73,6 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = aa85754
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_wyiswyg][patch][] = https://www.drupal.org/files/issues/enable_linkit_target-2374969-1.patch
