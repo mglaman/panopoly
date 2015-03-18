@@ -73,3 +73,7 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 9afe3e7
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-broken-formatters-2443499-22.patch
+projects[panopoly_magic][patch][] = https://www.drupal.org/files/issues/panopoly_magic-broken-formatters-2443499-18.patch
