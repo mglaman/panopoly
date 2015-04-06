@@ -73,3 +73,6 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 820a743
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_admin][patch][] = https://www.drupal.org/files/issues/panopoly_admin-jquery-update-form-2466083-1.patch
