@@ -73,6 +73,3 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 76d301f
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_wyiswyg][patch][] = https://www.drupal.org/files/issues/panopoly_wysiwyg-no-autop-2473365-1.patch
