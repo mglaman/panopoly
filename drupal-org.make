@@ -73,3 +73,7 @@ projects[panopoly_test][type] = module
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 76d301f
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-change-layout-error-2476227-1.patch
+projects[panopoly_images][patch][] = https://www.drupal.org/files/issues/panopoly_images-change-layout-error-2476227-1.patch
