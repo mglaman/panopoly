@@ -6,13 +6,13 @@ core = 7.x
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = c1359a8
+projects[panopoly_core][download][revision] = b3ac02e
 projects[panopoly_core][download][branch] = 7.x-1.x
 
 projects[panopoly_images][version] = 1.x-dev
 projects[panopoly_images][subdir] = panopoly
 projects[panopoly_images][download][type] = git
-projects[panopoly_images][download][revision] = 5f3b78e
+projects[panopoly_images][download][revision] = 2faba4e
 projects[panopoly_images][download][branch] = 7.x-1.x
 
 projects[panopoly_theme][version] = 1.x-dev
@@ -30,7 +30,7 @@ projects[panopoly_magic][download][branch] = 7.x-1.x
 projects[panopoly_widgets][version] = 1.x-dev
 projects[panopoly_widgets][subdir] = panopoly
 projects[panopoly_widgets][download][type] = git
-projects[panopoly_widgets][download][revision] = 7e0de38
+projects[panopoly_widgets][download][revision] = 06ca5ff
 projects[panopoly_widgets][download][branch] = 7.x-1.x
 
 projects[panopoly_admin][version] = 1.x-dev
@@ -70,9 +70,5 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 projects[panopoly_test][version] = 1.x-dev
 projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
-projects[panopoly_test][download][revision] = f01225c
+projects[panopoly_test][download][revision] = d10480e
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-style-form-2477469-7.patch
-projects[panopoly_magic][patch][] = https://www.drupal.org/files/issues/panopoly_magic-style-form-2477269-2.patch
