@@ -9,6 +9,13 @@
  */
 function panopoly_install() {
   _panopoly_install_help_block();
+
+  // Load the administrator role created through features.
+  $admin_role = user_role_load_by_name('administrator');
+
+  // Assign user 1 the "administrator" role.
+  db_insert('users_roles')
+    ->fields(array('uid' => 1, 'rid' => $admin_role->rid));
 }
 
 /**

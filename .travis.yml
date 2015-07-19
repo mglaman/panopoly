@@ -63,14 +63,14 @@ script:
 after_script:
   - $HOME/travis-ci.sh after-tests
 
-notifications:
-  email:
-    recipients:
-      - panopoly-ci@googlegroups.com
-    on_success: always
-    on_failure: always
-  irc:
-    channels:
-      - "chat.freenode.net#panopoly"
-    on_success: always
-    on_failure: always
+#notifications:
+#  email:
+#    recipients:
+#      - panopoly-ci@googlegroups.com
+#    on_success: always
+#    on_failure: always
+#  irc:
+#    channels:
+#      - "chat.freenode.net#panopoly"
+#    on_success: always
+#    on_failure: always
